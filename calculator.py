@@ -76,12 +76,11 @@ def main():
                 break
             elif continue_choice in ['no', 'n']:
                 continue_calculating = False
-                print("Thank you for using the calculator. Goodbye!")
                 break
             else:
                 print("Invalid input. Please enter 'yes' or 'no'.")
     
-    print("\nThank you for using the Simple Calculator. Goodbye!")
+    print("\nThank you for using the Simple Calculator!")
 
 if __name__ == "__main__":
     main()

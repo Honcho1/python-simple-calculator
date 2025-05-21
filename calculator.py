@@ -32,13 +32,8 @@ def main():
             choice = input("/nEnter operation choice (1-4): ")
 
             # Check if the choice is valid
-            if not choice.isdigit():
-                raise ValueError("Invalid input. Please enter a number between 1 and 4.")
-            choice = choice.strip()
-            # Check if the choice is within the valid range
-            if choice not in ['1', '2', '3', '4']:
-                raise ValueError("Invalid choice. Please select a valid operation. Enter a number between 1 and 4.")
-                continue
+            if not choice.isdigit() or choice not in ['1', '2', '3', '4']:
+                raise ValueError("Invalid choice. Please select a valid operation (1-4).")
 
             # Get user input for numbers
             num1 = float(input("Enter first number: "))

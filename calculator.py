@@ -21,7 +21,7 @@ def main():
     continue_calculating = True
 
     while continue_calculating:
-        print("/nAvailable operations:")
+        print("\nAvailable operations:")
         print("1. Addition(+)")
         print("2. Subtraction(-)")
         print("3. Multiplication(*)")
@@ -29,7 +29,7 @@ def main():
 
         # Get user input for operation choice and numbers
         try:
-            choice = input("/nEnter operation choice (1-4): ")
+            choice = input("\nEnter operation choice (1-4): ")
 
             # Check if the choice is valid
             if not choice.isdigit() or choice not in ['1', '2', '3', '4']:

@@ -16,13 +16,12 @@ A command-line calculator application written in Python that performs basic arit
 ## How to Use
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/python-simple-calculator.git
-
+   https://github.com/Honcho1/python-simple-calculator.git
 2. Navigate to the project directory:
-   cd python-simple-calculator
+   ```cd python-simple-calculator```
 
 3. Run the calculator:
-   python calculator.py
+   ```python calculator.py```
 
 4. Follow the on-screen prompts to:
    - Select an operation (1-4)
